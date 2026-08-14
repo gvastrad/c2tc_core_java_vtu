@@ -33,5 +33,11 @@ public class Student {
 		System.out.print(" ");
 		System.out.print(sName);
 	}
+	@Override
+	public String toString() {
+		return "Student details:---- [sId=" + sId + ", sName=" + sName + "]";
+	}
+
+	
 
 }
